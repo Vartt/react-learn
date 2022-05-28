@@ -1,16 +1,25 @@
-ReactDOM.render(
-<h1>Hello everyone!</h1> ,
- document.getElementById("root")
- );
+import React from "react"
+import ReactDOM from "react-dom"
 
- const nav = (
-    <nav>
-     <h1>website</h1>
-         <ul>
-             <li>Pricing</li>
-             <li>About</li>
-             <li>Contact</li>
-         </ul>
- </nav>
+/**
+Challenge: fix our code!
+
+Don't forget, you're not using CDNs anymore, so there's no
+global "ReactDOM" variable to use anymore.
+ */
+
+const page = (
+    <div>
+        <h1>My awesome website in React</h1>
+        <h3>Reasons I love React</h3>
+        <ol>
+            <li>It's composable</li>
+            <li>It's declarative</li>
+            <li>It's a hireable skill</li>
+            <li>It's actively maintained by skilled people</li>
+        </ol>
+    </div>
 )
-ReactDOM.render(nav, document.getElementById("root"))
+
+ReactDOM.render(page, document.getElementById("root"))
+// document.getElementById("root").append(JSON.stringify(page))

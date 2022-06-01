@@ -6,7 +6,7 @@ function Page() {
         <div>
             <header>
                 <nav>
-                    <img src="./react-logo.jpg" width="40px" />
+                    <img src="./react-logo.png" width="40px" />
                 </nav>
             </header>
             <h1>Reasons I'm excited to learn React</h1>

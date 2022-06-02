@@ -4,8 +4,13 @@ import ReactDOM from "react-dom"
 function Header() {
     return (
         <header>
-            <nav>
-                <img src="./react-logo.png" width="40px" />
+            <nav className="nav">
+                <img src="./react-logo.png" className="nav-logo" />
+                <ul className="nav-items">
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
         </header>
     )
@@ -14,7 +19,7 @@ function Header() {
 function Footer() {
     return (
         <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
+            <small>© 2021 Vartt development. All rights reserved.</small>
         </footer>
     )
 }
